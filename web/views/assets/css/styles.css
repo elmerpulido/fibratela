@@ -5886,12 +5886,14 @@
   cursor: pointer;
 }
 .top .header__categorias {
-  padding: 0.2em;
-  width: 12%;
+  padding: 1em;
   border-radius: 10px;
   -webkit-box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
           box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
   cursor: pointer;
+}
+.top .header__categorias a, .top .header__categorias i {
+  margin: auto 0.4em;
 }
 .top .header__categorias:hover {
   border-radius: 10px;

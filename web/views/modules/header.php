@@ -15,10 +15,11 @@
 
         <!-- categorias -->
 
-        <div class="col-sm-6 col-md-3 col-xl-1 header__categorias">
+        <div class="col-sm-6 col-md-3 col-xl-2 header__categorias">
 
-        <a href="#"> Categorias
-            <i class="fa-thin fa-bars"></i>
+        <a href="#">
+            <span>Categorias</span>
+            <i class="fa-solid fa-bars"></i>
         </a>
 
         </div>
@@ -60,7 +61,7 @@
 
         <!-- Pefil -->
 
-        <div class="col-sm-12 col-md-2 col-xl-3 header_perfil">
+        <div class="col-sm-12 col-md-2 col-xl-2 header_perfil">
 
             <a href="#">    
                 <a href="#">

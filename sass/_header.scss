@@ -33,11 +33,14 @@
 
      .header__categorias{
 
-         padding: .2em;
-         width: 12%;
+         padding: 1em;
          @include neum (10px , 6px);
-         cursor: pointer;
-     
+         cursor: pointer;   
+         
+         a, i{
+            margin: auto .4em;
+         }
+
      }
 
      .header__categorias:hover{
