@@ -1,8 +1,8 @@
-
+$font: #38675D;
 .top{
 
     width: 80%;
-    margin: 2em auto;
+    margin: 1em auto;
     border: .1em solid #fff;
     @include neum (10px , 6px);
 
@@ -11,11 +11,13 @@
          display: flex;
          align-items: center;
          justify-content: center;
+         justify-items: center;
          text-align: center;
       }
 
      .header__logo{
 
+         margin: auto;
          
          a{
             font-size: 4em;
@@ -30,19 +32,28 @@
          padding: .8em;
          width: 12%;
          @include neum (10px , 6px);
-         cursor: pointer;
 
-         a{
+         .header_btn{
+            background: $background;
+            color: $font;
             font-size: 1em;
-            
-            i{
-               font-size: .8em;
-            }
          }
+         
+         .offcanvas-top, li{
+            color: $background;
+            background: $font;
+            text-decoration: none;
+         
+         }         
      
      }
 
+     .header__categorias:hover{
+      @include insiteneum (10px , 6px);
+     }
+
      .header_RedSocial{
+      
       a{
          padding: .3em .5em;
          margin: .5em;
@@ -55,25 +66,36 @@
      }
 
      .header_shopCar{
-
+      margin: .5em;
          a{
             font-size: 1.2em;
          }
      }
 
+     .header_login{
+         margin: .5em;
+            a{
+               padding: .2em;
+            }
+     }
+
      .header_perfil{
       
-         margin: 0;
+         margin: .5em;
          width: 8%;
          padding: .5em;
          @include insiteneum (50px , 7px);
+         cursor: pointer;
             img{
                
                padding: 5%;
+               border: .1em solid #fff;
                @include neum (50px , 6px);
             }
      }
 
-
+     .header_perfil img:hover{
+      @include insiteneum (50px , 6px);
+     }
 
 }
