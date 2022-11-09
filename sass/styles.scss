@@ -1,15 +1,26 @@
 
+@use '_reset';
+@use '_mixin';
+@use '_header';
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap');
 //font-family: 'Miss Fajardose', cursive;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 //font-family: 'Roboto', sans-serif;
 
-@import 'mixinper';
-@import 'header';
+
+
 
 $background: #f3f3f3;
-$font: #38675D;
+$fuente: #38675D;
+$Azul: #31456a;
+$rojo: #dd3838;
+$negro: #222222;
+
+
 
 
 *{
@@ -24,5 +35,3 @@ body{
     background-color: $background;
  
 }
-
-c
