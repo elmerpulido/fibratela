@@ -154,13 +154,3 @@ body {
   /* opcional */
   -moz-osx-font-smoothing: grayscale;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-body {
-  background-color: #f3f3f3;
-}

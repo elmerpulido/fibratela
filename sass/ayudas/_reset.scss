@@ -1,3 +1,13 @@
+/*
+    
+  Con este reset vamos a resolver:
+    👉 Unificar el uso de Custom Properties
+    👉 Problemas de box-model más generales
+    👉 Problemas con imagenes, vídeos e iconos svg
+    👉 Problemas con tipografías y etiquetas input en formularios
+    👉 Unificar la tipografía de todas las etiquetas de una web
+
+*/
 
 /* Aquí definimos las Custom properties */
 :root{
@@ -18,12 +28,7 @@
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 @media (prefers-contrast: high){
-  :root{
-
-    --negro   :black;
-    --blanco  :white;
-
-  }
+    :root{}
 }
 
 /* Opcional */
@@ -132,7 +137,7 @@ body {
   font-family : var(--tipo-principal);
   color       : var(--negro);
   /* opcional */ line-height: 1.4em;
-  /* opcional  hyphens: auto;*/
+  /* opcional */ hyphens: auto;
   /* opcional */ font-smooth: always;
   /* opcional */ -webkit-font-smoothing: antialiased;
   /* opcional */ -moz-osx-font-smoothing: grayscale;
