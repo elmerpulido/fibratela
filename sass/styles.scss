@@ -1,17 +1,16 @@
-$background: #f3f3f3;
-$font: #38675D;
-
-
-
-
-@import 'mixinper';
-@import 'header';
 
 @import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap');
 //font-family: 'Miss Fajardose', cursive;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-//font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+//font-family: 'Roboto', sans-serif;
+
+@import 'mixinper';
+@import 'header';
+
+$background: #f3f3f3;
+$font: #38675D;
+
 
 *{
     margin: 0;
@@ -23,19 +22,7 @@ $font: #38675D;
 body{
     
     background-color: $background;
-    
-
-    a, li{
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        color: $font;
-        transform: none;
-    }
+ 
 }
 
-
-
-
-
-
-
+c
