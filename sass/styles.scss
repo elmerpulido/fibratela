@@ -2,17 +2,6 @@ $background: #f3f3f3;
 $font: #38675D;
 
 
-//Incluya funciones primero (para que pueda manipular colores, SVG, calc, etc.
-@import "../node_modules/bootstrap/scss/functions";
-
-
-//Incluya el resto de las hojas de estilo Bootstrap requeridas
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-
-//Incluya los componentes opcionales de Bootstrap que desee
-@import "../node_modules/bootstrap/scss/containers";
-@import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
 
 
 @import 'mixinper';
@@ -31,12 +20,9 @@ $font: #38675D;
 }
 
 
-
-
-
 body{
     
-    background-color: #f3f3f3;
+    background-color: $background;
     
 
     a, li{
