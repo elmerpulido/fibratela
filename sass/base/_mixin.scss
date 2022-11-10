@@ -13,5 +13,15 @@
     border-radius: $radius;
     box-shadow: inset $eje $eje ($eje*2) rgba(70,70,70,0.15),
                 inset (-$eje) (-$eje) ($eje*2) #fff;
-}
+};
 
+@mixin flex( $dir , $wrap , $just , $aling) {
+
+    display: flex;
+    flex-flow: $dir $wrap;
+    justify-content: $just;
+    align-items: $aling;
+
+
+    
+}

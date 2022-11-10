@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap');
-//font-family: 'Miss Fajardose', cursive;
+@import 'base/reset', 'base/mixin';
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-//font-family: 'Roboto', sans-serif;
+@import 'modules/header';

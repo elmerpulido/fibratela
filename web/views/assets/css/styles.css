@@ -1,30 +1,23 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-/* Aquí definimos las Custom properties */
 :root {
   --negro: #393939;
-  /* Tipografía */
-  --tipo-principal: Helvetica, Arial, sans-serif;
-  --tipo-secundaria: Verdana;
+  --blanco:#f3f3f3;
+  --tipo-principal: "Roboto", sans-serif;
+  --tipo-secundaria: "Miss Fajardose", cursive;
 }
 
-/* Las adaptamos al modo oscuro */
 @media (prefers-color-scheme: dark) {
   :root {
     --negro: #ececec;
   }
 }
-/* Opcional */
-/* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 @media (prefers-contrast: high) {
   :root {
     --negro:black;
     --blanco:white;
   }
 }
-/* Opcional */
-/* Desactivamos los animations en el caso de que el usuario haya configurado el modo sin animation */
 @media (prefers-reduced-motion: reduce) {
   * {
     -webkit-animation: none !important;
@@ -33,7 +26,6 @@
     transition: none !important;
   }
 }
-/* Reseteamos los margin y paddings de todas las etiquetas */
 * {
   margin: 0;
   padding: 0;
@@ -43,20 +35,16 @@
   vertical-align: baseline;
 }
 
-/* Evitamos problemas con las imagenes */
 img, picture, video, iframe, figure {
   max-width: 100%;
   width: 100%;
   display: block;
-  /* opcional */
   -o-object-fit: cover;
      object-fit: cover;
-  /* opcional */
   -o-object-position: center center;
      object-position: center center;
 }
 
-/* Reseteamos los enlaces para funcionar como cajas... */
 a {
   display: block;
   text-decoration: none;
@@ -64,22 +52,18 @@ a {
   font-size: inherit;
 }
 
-/* ... excepto los que se encuentran en párrafos */
 p a {
   display: inline;
 }
 
-/* Quitamos los puntos de los <li> */
 li {
   list-style-type: none;
 }
 
-/* Configuramos anclas suaves */
 html {
   scroll-behavior: smooth;
 }
 
-/* Desactivamos estilos por defecto de las principales etiquetas de texto */
 h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
   font-size: 1em;
   font-weight: inherit;
@@ -88,23 +72,21 @@ h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
   color: inherit;
 }
 
-/* Evitamos problemas con los pseudoelementos de quotes */
 blockquote:before, blockquote:after, q:before, q:after {
   content: "";
   content: none;
 }
 
-/* Configuramos el texto que seleccionamos */
 ::-moz-selection {
   background-color: var(--negro);
   color: var(--blanco);
 }
+
 ::selection {
   background-color: var(--negro);
   color: var(--blanco);
 }
 
-/* Nivelamos problemas de tipografías y colocación de formularios */
 form, input, textarea, select, button, label {
   font-family: inherit;
   font-size: inherit;
@@ -114,43 +96,100 @@ form, input, textarea, select, button, label {
   background-color: transparent;
   color: inherit;
   display: block;
-  /* opcional */
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  /* opcional appearance: none;*/
 }
 
-/* Reseteamos las tablas */
 table, tr, td {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* Evitamos problemas con los SVG */
 svg {
   width: 100%;
   display: block;
   fill: currentColor;
 }
 
-/* (Probándolo, no usar en producción) En el caso de añadir una  */
-/* p svg{
-  display: inline;
-  width: initial;
-} */
-/* Configuramos la tipografía para toda la web */
 body {
   min-height: 100vh;
   font-size: 100%;
+  background: #f3f3f3;
   font-family: var(--tipo-principal);
-  color: var(--negro);
-  /* opcional */
+  color: #3C6E71;
   line-height: 1.4em;
-  /* opcional  hyphens: auto;*/
-  /* opcional */
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
   font-smooth: always;
-  /* opcional */
   -webkit-font-smoothing: antialiased;
-  /* opcional */
   -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-top {
+  margin-top: 1em;
+  width: 80%;
+  border: 0.1em solid #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+          box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-logo {
+  font-size: 4em;
+  font-family: var(--tipo-secundaria);
+}
+.header-categorias {
+  margin: 1em;
+  padding: 0.2em;
+  font-size: 1.2em;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+          box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+}
+.header-categorias-a:hover {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 6px 6px 12px rgba(70, 70, 70, 0.15), inset -6px -6px 12px #fff;
+          box-shadow: inset 6px 6px 12px rgba(70, 70, 70, 0.15), inset -6px -6px 12px #fff;
+}
+.header-a, .header-ul, .header-h3 {
+  padding: 0.2em;
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
