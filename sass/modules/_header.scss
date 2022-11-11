@@ -13,6 +13,14 @@
         
     }
 
+    &-a, &-ul, &-h3 {
+
+        padding: .2em;
+        font-size: 1em;
+        @include flex (row , wrap , space-around , center);
+    }
+    
+
     &-logo{
 
         font-size: 4em;
@@ -20,22 +28,37 @@
     }
 
     &-categorias{
+
         margin: 1em;
         padding: .2em;
         font-size: 1.2em;
         @include neum (10px , 6px);
 
-        &-a:hover{
-            @include insiteneum (10px , 6px);
-        }
     }
 
-    &-a, &-ul, &-h3 {
+    &-categorias:hover{
+        @include insiteneum (10px , 6px);
+    }
 
+    &-button{
         padding: .2em;
         font-size: 1em;
         @include flex (row , wrap , space-around , center);
+        cursor: pointer;
     }
+
+    &-redsocial{
+        font-size: 1.5em;
+
+        li{
+            padding: .3em;
+        }
+    }
+
+    
+
+    
 
 
 }
+

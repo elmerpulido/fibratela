@@ -12,11 +12,13 @@
 
         <div class="header-categorias">
 
-            <a href="#" class="header-a">
-                <h3 class="header-h3">Categorias</h3>
-                <i class="fa-solid fa-bars"></i>
-            </a>
+            <button class="header-button">
 
+            <h3 class="header-h3">Categorias</h3>
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+            
         </div>
 
         <div class="header-redsocial">
