@@ -7,15 +7,16 @@
         margin-top: 1em;
         width: 80%;
         border: .1em solid #fff;
-        @include neum (10px , 6px);
+        @include neum (10px , 4px);
         @include flex ( row , wrap , space-around , center);
 
         
     }
 
-    &-a, &-ul, &-h3 {
+    &-a, &-ul, &-h3, &-button, i {
 
-        padding: .2em;
+        margin: .1em;
+        padding: .1em;
         font-size: 1em;
         @include flex (row , wrap , space-around , center);
     }
@@ -23,7 +24,7 @@
 
     &-logo{
 
-        font-size: 4em;
+        font-size: 3.5em;
         font-family: var(--tipo-secundaria);
     }
 
@@ -31,33 +32,59 @@
 
         margin: 1em;
         padding: .2em;
-        font-size: 1.2em;
-        @include neum (10px , 6px);
+        font-size: 1em;
+        @include neum (10px , 4px);
 
     }
 
     &-categorias:hover{
-        @include insiteneum (10px , 6px);
+        @include insiteneum (10px , 4px);
+        color: $color-green-secun;
     }
 
     &-button{
-        padding: .2em;
+        padding: .3em;
         font-size: 1em;
-        @include flex (row , wrap , space-around , center);
         cursor: pointer;
+            
+
     }
 
     &-redsocial{
-        font-size: 1.5em;
-
+        font-size: 1.3em;
+        
         li{
-            padding: .3em;
+
+            margin: auto .6em;
+            padding: .1em .2em;
+            @include neum (50px , 4px);
+
         }
+
+        li:hover{
+
+            @include insiteneum(50px , 4px);
+            color: $color-green-secun;
+        }
+          
     }
 
-    
+    &-login{
 
-    
+        margin: .5em;
+
+        li{
+            margin: auto .5em;
+            padding: .2em;
+            @include neum (10px , 4px);
+        }
+
+        li:hover{
+
+            @include insiteneum(10px , 4px);
+            color: $color-green-secun;
+        }
+    }
 
 
 }

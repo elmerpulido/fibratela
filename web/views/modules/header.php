@@ -14,8 +14,10 @@
 
             <button class="header-button">
 
-            <h3 class="header-h3">Categorias</h3>
+            <h3 class="header-h3">Categorias
                 <i class="fa-solid fa-bars"></i>
+            </h3>
+                
 
             </button>
             
@@ -47,16 +49,16 @@
         <div class="header-login">
             <ul class="header-ul">
                 <li class="header-li">
-                    <a href="#" class="header-a">
+                    <button class="header-button">
                     <i class="fa-regular fa-user"></i>
                     <h3 class="header-h3">Ingresar</h3>
-                    </a>
+                    </button>
                 </li>                
                 <li class="header-li">
-                    <a href="#" class="header-a">
+                    <button class="header-button">
                     <i class="fa-regular fa-address-card"></i>
                     <h3 class="header-h3">Registro</h3>
-                    </a>
+                    </button>
                 </li>
             </ul>
         </div>
