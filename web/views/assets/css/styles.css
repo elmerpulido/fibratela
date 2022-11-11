@@ -181,6 +181,43 @@ body {
   font-size: 3.5em;
   font-family: var(--tipo-secundaria);
 }
+.header-categorias {
+  padding: 0.2em;
+  border-radius: 4px;
+  -webkit-box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+          box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+}
+.header-categorias .header-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-categorias .header-container .header-ul {
+  position: absolute;
+  margin-top: 10em;
+  width: 50em;
+  max-width: 120em;
+  left: -20em;
+  border: 0.1em solid #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+          box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+}
+.header-categorias:hover {
+  border-radius: 4px;
+  -webkit-box-shadow: inset 6px 6px 12px rgba(70, 70, 70, 0.15), inset -6px -6px 12px #fff;
+          box-shadow: inset 6px 6px 12px rgba(70, 70, 70, 0.15), inset -6px -6px 12px #fff;
+}
 .header-redsocial {
   font-size: 1.3em;
 }

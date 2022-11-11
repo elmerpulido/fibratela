@@ -29,7 +29,36 @@
         font-family: var(--tipo-secundaria);
     }
 
- 
+    &-categorias{
+
+        padding: .2em;
+        @include neum (4px , 6px);
+
+            .header-container{
+
+                position: relative ;               
+                @include flex (row , wrap , space-around , center);
+
+                .header-ul{
+                    position: absolute;
+                    margin-top: 10em;
+                    width: 50em;
+                    max-width: 120em;
+                    left: -20em;
+                    border: .1em solid #fff;
+                    @include neum (4px , 6px);
+
+                }
+
+            }
+
+    
+    }
+
+    &-categorias:hover{
+
+        @include insiteneum(4px , 6px);
+    }
 
     &-redsocial{
         font-size: 1.3em;
@@ -39,6 +68,7 @@
             margin: auto .6em;
             padding: .1em .2em;
             @include neum (50px , 4px);
+
 
         }
 
@@ -64,6 +94,7 @@
 
             @include insiteneum(10px , 4px);
             color: $color-green-secun;
+            
         }
     }
 

@@ -10,15 +10,24 @@
         </a>
         </div>
 
-        <div class="header-categorias">
-            
-            <div class="header-menu">
+        <div class="header-categorias nav">
+
+            <div class="header-container horizontal">
 
                 <h3 class="header-h3">Categorias</h3>
 
-                <p class="contenido">soy contenido</p>
+                <ul class="header-ul vertical">
+
+                    <li class="header-li"><a href="#" class="header-a">Driles</a>
+                    </li>
+                    <li class="header-li"><a href="#" class="header-a">Driles</a>
+                    </li>
+                    <li class="header-li"><a href="#" class="header-a">Driles</a>
+                    </li>
+
+                </ul>
+
             </div>
-           
 
         </div>
 
