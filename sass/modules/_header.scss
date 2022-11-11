@@ -2,6 +2,7 @@
 .header{
     @include flex ( row , wrap , center, center) ;
 
+
     &-top{
         
         margin-top: 1em;
@@ -28,27 +29,7 @@
         font-family: var(--tipo-secundaria);
     }
 
-    &-categorias{
-
-        margin: 1em;
-        padding: .2em;
-        font-size: 1em;
-        @include neum (10px , 4px);
-
-    }
-
-    &-categorias:hover{
-        @include insiteneum (10px , 4px);
-        color: $color-green-secun;
-    }
-
-    &-button{
-        padding: .3em;
-        font-size: 1em;
-        cursor: pointer;
-            
-
-    }
+ 
 
     &-redsocial{
         font-size: 1.3em;

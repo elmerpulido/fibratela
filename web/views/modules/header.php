@@ -11,16 +11,15 @@
         </div>
 
         <div class="header-categorias">
-
-            <button class="header-button">
-
-            <h3 class="header-h3">Categorias
-                <i class="fa-solid fa-bars"></i>
-            </h3>
-                
-
-            </button>
             
+            <div class="header-menu">
+
+                <h3 class="header-h3">Categorias</h3>
+
+                <p class="contenido">soy contenido</p>
+            </div>
+           
+
         </div>
 
         <div class="header-redsocial">

@@ -35,5 +35,7 @@ $path = TemplateController::path();
     
 </body>
 
+    <script src="views/assets/js/app.js"></script>
+
 </html>
 

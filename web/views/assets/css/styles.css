@@ -181,25 +181,6 @@ body {
   font-size: 3.5em;
   font-family: var(--tipo-secundaria);
 }
-.header-categorias {
-  margin: 1em;
-  padding: 0.2em;
-  font-size: 1em;
-  border-radius: 10px;
-  -webkit-box-shadow: 4px 4px 8px rgba(70, 70, 70, 0.15), -4px -4px 8px #fff;
-          box-shadow: 4px 4px 8px rgba(70, 70, 70, 0.15), -4px -4px 8px #fff;
-}
-.header-categorias:hover {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 4px 4px 8px rgba(70, 70, 70, 0.15), inset -4px -4px 8px #fff;
-          box-shadow: inset 4px 4px 8px rgba(70, 70, 70, 0.15), inset -4px -4px 8px #fff;
-  color: #84a59d;
-}
-.header-button {
-  padding: 0.3em;
-  font-size: 1em;
-  cursor: pointer;
-}
 .header-redsocial {
   font-size: 1.3em;
 }
