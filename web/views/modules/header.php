@@ -10,26 +10,7 @@
         </a>
         </div>
 
-        <div class="header-categorias nav">
-
-            <div class="header-container horizontal">
-
-                <h3 class="header-h3">Categorias</h3>
-
-                <ul class="header-ul vertical">
-
-                    <li class="header-li"><a href="#" class="header-a">Driles</a>
-                    </li>
-                    <li class="header-li"><a href="#" class="header-a">Driles</a>
-                    </li>
-                    <li class="header-li"><a href="#" class="header-a">Driles</a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
+        
 
         <div class="header-redsocial">
 
