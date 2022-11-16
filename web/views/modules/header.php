@@ -10,7 +10,72 @@
         </a>
         </div>
 
-        
+        <div class="header-categorias">
+
+            <h2 class="header-h2">Categorias</h2>
+
+                <nav class="header-nav">
+
+                    <ul class="header-categoriaDril">
+
+                        <ul class="header-ul">
+                            <a href="#"><h2>Dril</h2></a>
+
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                        </ul>
+
+                        <div class="header-imgspamer">
+                            <a href="#">
+                                <img src="" alt="Aca va una imagen">
+                            </a>
+                        </div>
+
+                    </ul>
+
+                    <ul class="header-ul--categoriaDril">
+
+                        <ul class="header-ul">
+                            <a href="#"><h2>Dril</h2></a>
+
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                        </ul>
+
+                    </ul>
+
+                    <ul class="header-ul--categoriaDril">
+
+                        <ul class="header-ul">
+                            <a href="#"><h2>Dril</h2></a>
+
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                        </ul>
+
+
+                    </ul>
+
+                    <ul class="header-ul--categoriaDril">
+
+                        <ul class="header-ul">
+                            <a href="#"><h2>Dril</h2></a>
+
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                                <li><a href="#">Dril1</a></li>
+                        </ul>
+
+                    </ul>
+                </nav>
+        </div>
 
         <div class="header-redsocial">
 

@@ -181,6 +181,21 @@ body {
   font-size: 3.5em;
   font-family: var(--tipo-secundaria);
 }
+.header-categorias {
+  background-color: red;
+}
+.header-categorias .header-nav {
+  margin: auto;
+  position: absolute;
+  margin-top: 2em;
+  width: 80%;
+  max-width: 80%;
+  left: 8.5em;
+  border: 0.1em solid #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 8px rgba(70, 70, 70, 0.15), -4px -4px 8px #fff;
+          box-shadow: 4px 4px 8px rgba(70, 70, 70, 0.15), -4px -4px 8px #fff;
+}
 .header-redsocial {
   font-size: 1.3em;
 }
